@@ -1,0 +1,7 @@
+Strings are collections of characters that are used to show blocks of text in
+JavaScript.
+Special values can be escaped by placing a backslash ( \ ) in front of them.
+Strings have various properties and methods that provide information
+about them.
+The length property tells us how many characters there are in a string.
+Strings can be concatenated (joined together) using the + operator

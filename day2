@@ -5,3 +5,17 @@ Strings have various properties and methods that provide information
 about them.
 The length property tells us how many characters there are in a string.
 Strings can be concatenated (joined together) using the + operator
+
+Numbers can be integers such as 2 or floats (decimals) such as 7.8,
+although JavaScript doesn’t differentiate between them and just has a
+single primitive data type of Number .
+Numbers can be written in exponential notation such as 5e6 for five
+million.
+The arithmetic operations +, -, *, / and % can be applied to any two
+numbers.
+It’s possible to change strings to numbers and vice versa.
+If you try to perform operations between a string and a number, JavaScript
+will attempt to convert the type to complete the operation. This can cause
+some inconsistent and unexpected results!
+A random number between 0 and 1 is returned by the Math.random()
+method.

@@ -31,3 +31,20 @@ manipulate items in the array.
 The spread operator is used by placing an ellipsis of three dots in front of
 an array. It has the effect of taking all the values out of the array and listing
 them as separate values inside a new array
+
+Booleans are primitive values that can only be true or false .
+All values have an inherent Boolean value of true or false .
+Truthy values are values that have a Boolean value of true . Most values
+are truthy.
+Falsy values have a Boolean value of false . The values that are falsy vary
+in different languages. There are nine falsy values in JavaScript.
+Negation makes truthy values false and falsy values true. Double negation
+returns a value’s Boolean value.
+Logical operators such as AND and OR can be used to combine multiple
+statements.
+Values can be compared to see if they’re equal, greater than or less than
+other values.
+A conditional statement can be used to control the flow of a program based on a condition.
+The ternary operator is a concise way of writing an if–else statement in a
+single line of code.
+A switch statement can be used when there are multiple options.

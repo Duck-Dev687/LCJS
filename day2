@@ -19,3 +19,15 @@ will attempt to convert the type to complete the operation. This can cause
 some inconsistent and unexpected results!
 A random number between 0 and 1 is returned by the Math.random()
 method.
+
+Arrays are an ordered list of values.
+An array literal is written using square brackets containing commaseparated values—such as [2,3,5,7] .
+Arrays can contain any type of value—even other arrays!
+The index is used to reference a specific item in an array. For example,
+myArray[0] refers to the first item in myArray .
+Multi-dimensional arrays are arrays that contain other arrays.
+Arrays have many methods that can be used to add, remove and
+manipulate items in the array.
+The spread operator is used by placing an ellipsis of three dots in front of
+an array. It has the effect of taking all the values out of the array and listing
+them as separate values inside a new array

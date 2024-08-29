@@ -1,0 +1,14 @@
+A loop is a block of code that runs over and over again until a certain
+condition is met.
+An infinite loop is a loop that never stops, as it’s impossible to meet the
+condition for breaking out of the loop.
+A while loop will continue to run as long as a particular condition is true.
+A do–while loop will also run while a condition is true, but the condition
+comes at the end, rather than the beginning of the loop.
+A for loop sets the initial value, a condition for stopping, and increment at
+the start, and then runs a block of code until the condition is met. After
+every loop, the increment instruction is carried out.
+Nested loops can be formed by running a loop within another loop. The
+inner loop runs all the way through for every pass of the outer loop.
+
+  

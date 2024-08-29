@@ -36,3 +36,22 @@ be changed or removed (even if they’re created using const ).
 Nested objects can be created by placing objects inside objects.
 The keyword this can be used in properties and methods to refer to the
 object itself.
+
+The Document Object Model is a way of representing a page of HTML as a
+tree of nodes.
+The DOM has a number of methods that can be used to access elements
+on a page.
+The DOM provides a number of methods that can be used to navigate
+around the DOM tree.
+An element’s attributes can be accessed using the getAttribute()
+method and updated using the setAttribute() method.
+The innerHTML property can be used to quickly insert raw HTML into an
+element.
+The createElement() and createTextNode() methods can be used to
+create dynamic markup.
+Markup can be added to the page using the appendChild() and
+insertBefore() methods.
+Elements can be replaced using the replaceChild() method and removed
+using the remove() method.
+The CSS properties of an element can be changed by updating the style
+property

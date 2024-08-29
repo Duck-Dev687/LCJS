@@ -22,3 +22,17 @@ declaration and can be used like a variable inside the function’s body.
 An argument is a value that’s provided to a function when it’s called.
 The return value of a function can be assigned to a variable.
 A callback is a function that’s provided as an argument to a
+
+Objects have properties that contain information about the object, and
+methods that are actions the object can perform.
+Object literals in JavaScript are a collection of key–value pairs placed inside
+curly braces ( {} ) and separated by commas.
+Properties can be strings, numbers, Booleans or arrays.
+Methods are stored as functions.
+An object’s properties and methods can be accessed using either dot
+notation or square bracket notation.
+Objects are mutable, which means that their properties and methods can
+be changed or removed (even if they’re created using const ).
+Nested objects can be created by placing objects inside objects.
+The keyword this can be used in properties and methods to refer to the
+object itself.

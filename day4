@@ -13,3 +13,31 @@ preventDefault() function.
 Event delegation is when an event listener is added to a parent element to
 capture events that happen to multiple child elements in order to avoid
 adding an event listener for every single child element.
+
+The spread operator can be applied to strings to spread them into an array
+containing each character as a separate item.
+Iteration methods loop through every value in a collection and apply an
+operation to each value.
+JavaScript has a number array methods that apply a callback to every item
+in the array.
+The forEach() method applies the code in the callback for every item in
+the array.
+The map() method returns a new array by applying the code in the
+callback to every item in the array.
+The reduce() method returns a single value by applying an accumulator
+function defined in the callback to every value in the array—for example,
+adding up all the values in the array.
+The filter() method returns a new array containing only the values from
+the original array that match the criteria defined in the callback.
+The find() method returns the first item in an array that matches the
+criteria given in the callback.
+The every() method returns true if every item in the array matches the
+criteria given in the callback. Otherwise, it returns false .
+The some() method returns true if any item in the array matches the
+criteria given in the callback. It returns false if none of the items in the
+array match the criteria.
+You can iterate over objects using a for–in loop that will give you access to
+each property in the object.
+The Object.keys() , Object.values() and Object.entries() methods
+will return an array of an object’s keys, values, or key–value pairs
+respectively.

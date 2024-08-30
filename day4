@@ -1,0 +1,15 @@
+Events occur when a user interacts with a web page.
+An event listener is attached to an element and then invokes a callback
+function when the event occurs.
+The event object is passed to the callback function as an argument, and
+contains a number of properties and methods relating to the event.
+There are many types of events, including click events, mouse events and
+keyboard events.
+Forms also have a submit event that can be used to intercept a form
+before it has been submitted.
+You can remove an event using the removeEventListener() method.
+The default behavior of elements can be prevented using the
+preventDefault() function.
+Event delegation is when an event listener is added to a parent element to
+capture events that happen to multiple child elements in order to avoid
+adding an event listener for every single child element.

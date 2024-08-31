@@ -1,4 +1,48 @@
+Named parameters can be reproduced in JavaScript using an object as the
+parameter. This allows the arguments to be provided as properties of the
+object in any order.
+The rest parameter allows any number of values to be provided to a
+function as an array.
+Recursive functions are functions that continually call themselves until a
+certain condition is reached.
+The scope of a variable determines where and how that variable can be
+accessed.
+Functions declared using the function keyword are hoisted to the top of
+the scope, meaning they can be called even before they’ve been defined.
+Variables should be declared before they’re referred to.
+A closure is formed when a function accesses a variable that has been
+declared in the surrounding scope of the function. By returning the
+function, we can maintain access to the variable outside the scope it was
+declared in.
+Functional programming is a style of programming that combines pure
+functions that perform a single task in order to perform more complex
+tasks.
+Pure functions shouldn’t reference anything outside the scope of the
+function that has not been supplied as an argument, and they shouldn’t
+cause side effects by changing anything outside the scope of the function.
+They should have referential transparency, which means that, given the
+same arguments, they should return the same value.
+Higher-order functions accept functions as arguments and return
+functions. They can be chained together to complete more complex
+operations
 
+Objects are copied by reference in JavaScript. To make a hard copy of an
+object, you need to use the spread operator.
+Object-oriented programming (OOP) is a programming concept that
+involves keeping code in objects.
+Encapsulation means that the inner workings of an object are kept away
+from the users.
+Polymorphism means that objects can share the same methods, but
+implement them in different ways.
+Inheritance means that a class can inherit all the properties and methods
+from a parent class and then add their own, more specific properties and
+methods, or change some of the properties and methods from those of the
+parent class.
+You can create classes in JavaScript using the class keyword. The class
+describes the properties and methods that each instance of that class will
+have.
+The constructor function defined in the class is called whenever a new
+instance of a class is created using the new keyword.
 
 The UNIX epoch is an arbitrary date of January 1, 1970, that computer
 languages use as a reference point to measure how much time has
@@ -13,3 +57,28 @@ is waiting for them to complete.
 The setInterval() method repeatedly calls a callback every time a given
 time interval has passed.
 JavaScript can be used to add interactivity to CSS animations.
+
+
+Set up your coding environment by installing a text editor to write your
+code in.
+A style guide will help to ensure that your code is written in a consistent
+style and is easy to read.
+Tests will help to keep your code free from bugs and errors.
+Version control such as Git can help to manage any changes to your code.
+There’s still more JavaScript for you to learn, including web APIs and
+modules.
+JavaScript libraries such as jQuery, Lodash and date-fns provide methods
+for making development easier.
+Node.js lets you run JavaScript without a browser and develop server-side
+applications.
+There are lots of other programming languages that you can learn.
+JavaScript frameworks such as React, Vue and Svelte help to create user
+interfaces that update in response to changes in the underlying data.
+stack, making it the perfect language for full-stack development.
+You can use JavaScript to build websites, web applications, games, phone
+apps or desktop apps.
+Your programming skills can be used to control just about anything around
+the home, thanks to the Internet of Things.
+Keep your knowledge up to date by reading books and articles, listening to
+podcasts, watching videos and following develop
+JavaScript can now be used to program every part of the web development

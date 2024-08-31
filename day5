@@ -1,0 +1,15 @@
+
+
+The UNIX epoch is an arbitrary date of January 1, 1970, that computer
+languages use as a reference point to measure how much time has
+elapsed.
+Most programming languages have a Date object that allows you to store
+dates and times in various formats.
+The setTimeout() method calls a callback after a number of milliseconds
+provided as an argument.
+Asynchronous programming means that code can be executed out of
+order. It stops long processes blocking the flow of code while the program
+is waiting for them to complete.
+The setInterval() method repeatedly calls a callback every time a given
+time interval has passed.
+JavaScript can be used to add interactivity to CSS animations.

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class=" min-h-screen grid place-content-center radial-blue">
+    <div class="bg-emerald-500 w-52 h-52 rounded-full shadow-2xl grid place-content-center">
+        <div class="bg-teal-200 w-32 h-32 rounded-full shadow-2xl flex items-center justify-center">
+            <div class="bg-white w-16 h-16 rounded-full pt-5 text-center align-middle " id="timer"></div>
+        </div>
+    </div> 
+<div class="flex flex-row items-center mt-7 justify-center gap-3">
+    <button class=" bg-indigo-800 rounded-lg p-2 w-max  border-dotted border-x-indigo-500 border-4  hover:bg-indigo-600 active:bg-indigo-600 active:text-gray-200 text-white" id="startBtn"  >Start!</button>
+</div>
+
+    <script>
+        let startBtn = document.getElementById('startBtn')
+        let time=document.getElementById("timer")
+        startBtn.addEventListener('click', start)
+        
+        function start(){
+     
+
+ let timings=60;
+ let i=0;
+     let myInterval = setInterval(Timeout, 1000);
+    function Timeout(){
+     
+        time.innerHTML=`${(timings*60-i)%60}`;
+         
+i++;
+    }
+        }
+
+
+      
+    </script>
+</body>
+</html>
